@@ -93,6 +93,12 @@ input[type="submit"] {
 #inventory {
   background-color: lightgreen;
 }
+#matable {
+  width: 100%;
+  padding: 2px;
+  border-spacing: 2px;
+}
+
 #contact {
   background-color: lightsteelblue;
 }
