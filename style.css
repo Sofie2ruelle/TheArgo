@@ -1,0 +1,103 @@
+body {
+  background-color: lightgoldenrodyellow;
+  font-family: "Gill Sans", sans-serif;
+  color: #333;
+}
+
+section {
+  padding: 40px;
+  text-align: center;
+}
+
+ul {
+  background: violet;
+  display: flex;
+  justify-content: space-around;
+  padding: 12px;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul li a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  color: goldenrod;
+}
+
+header {
+  text-align: center;
+}
+
+#welcome {
+  height: 400px;
+  background-image: url("assets/bleuesea.jpg");
+  background-size: cover;
+}
+
+h1 {
+  font-size: 54px;
+  color: white;
+  text-shadow: 1px 1px grey;
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+#history {
+  font-weight: bold;
+  background-color: rgb(110, 180, 177);
+  font-family: "Gill Sans", Georgia, "Times New Roman", Times, serif;
+}
+#heroes .flex-container div {
+  /* Set heroes colums to equal width */
+  flex: 1 1 0;
+}
+
+form {
+  margin: 0 auto;
+  width: 300px;
+  padding-top: 20xp;
+}
+
+label {
+  line-height: 2;
+}
+
+input[type="text"],
+input[type="email"],
+texarea {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  background: blue;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+}
+
+@font-face {
+  font-family: "Happychicken";
+  src: url("assets/Happychicken.otf"); /*src est la source*/
+}
+#inventory {
+  background-color: lightgreen;
+}
+#contact {
+  background-color: lightsteelblue;
+}
+h1 {
+  color: rgba(7, 12, 87, 0.582);
+  font-size: 40px;
+  font-family: "Happychicken";
+}
